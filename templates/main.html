@@ -1,0 +1,65 @@
+{% extends 'shablon.html' %}
+
+{% block title %}
+Лучшие французские актёры
+{% endblock %}
+
+{% block content %}
+<ul class="nav nav-pills">
+    <li class="nav-item">
+        <a class="nav-link" href="/">Фильмы</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="/person/">Герои фильмов</a>
+    </li>
+</ul>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+                <div class="photo">
+                    <img src="../static/img/pierre-richard.jpg" class="card-img-top" alt="Пьер Ришар"
+                         style="margin-bottom: 10px;">
+                </div>
+                <div class="info px-3">
+                    <h3>Пьер Ришар</h3>
+                    <p>E-mail: <span class="italic">pierre-richard@yandex.ru</span></p>
+                    <p>Город: <span class="italic">Валансьен, Франция</span></p>
+                    <p>Дата рождения: <span class="italic">16 августа 1934 г.</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+                <div class="photo">
+                    <img src="../static/img/gerard-depardieu.jpg" class="card-img-top" alt="Жерар Депардье"
+                         style="margin-bottom: 10px;">
+                </div>
+                <div class="info px-3">
+                    <h3>Жерар Депардье</h3>
+                    <p>E-mail: <span class="italic">gerard-depardieu@yandex.ru</span></p>
+                    <p>Город: <span class="italic">Шатору, Франция</span></p>
+                    <p>Дата рождения: <span class="italic">27 декабря 1948 г.</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+                <div class="photo">
+                    <img src="../static/img/corynne-charby.jpg" class="card-img-top" alt="Коринн Шарби"
+                         style="margin-bottom: 10px;">
+                </div>
+                <div class="info px-3">
+                    <h3>Коринн Шарби</h3>
+                    <p>E-mail: <span class="italic">corynne-charby@yandex.ru</span></p>
+                    <p>Город: <span class="italic">Париж, Франция</span></p>
+                    <p>Дата рождения: <span class="italic">12 июля 1960 г.</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
