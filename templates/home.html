@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Лучшие французские фильмы
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" style="width: 18rem;">
+                <img src="../static/img/la-chevre.jpg" class="card-img-top" alt="Невезучие">
+                <div class="card-body">
+                    <h5 class="card-title">«Невезучие» (1981)</h5>
+                    <p class="card-text">Есть тип людей, страдающих хроническим невезением. Единственная дочь миллионера
+                        Мари как раз из таких. Теперь она пропала где-то в Мексике. Её отец поручает поиски опытному
+                        сыщику, а в помощь ему даёт такого же невезучего человека. Один невезучий должен вывести на
+                        другого</p>
+                    <a href="https://www.youtube.com/@Watchcomedy" target="_blank"class="btn btn-primary">{{link}}</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" style="width: 18rem;">
+                <img src="../static/img/les-comperes.jpg" class="card-img-top" alt="Папаши">
+                <div class="card-body">
+                    <h5 class="card-title">«Папаши» (1983)</h5>
+                    <p class="card-text">Подросток сбегает из дома с подружкой. Его мать просит помочь
+                        двух давних знакомых, сообщая каждому, что именно он отец мальчика. Пробивной
+                        журналист и незадачливый школьный учитель вместе отправляются на поиски. Они не знают,
+                        что искать им придётся одного и того же человека</p>
+                    <a href="https://www.youtube.com/@starmedia" target="_blank"class="btn btn-primary">{{link}}</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" style="width: 18rem;">
+                <img src="../static/img/les-fugitifs.jpg" class="card-img-top" alt="Беглецы">
+                <div class="card-body">
+                    <h5 class="card-title">«Беглецы» (1986)</h5>
+                    <p class="card-text">Нескладный грабитель банка захватывает в заложники бывшего заключенного.
+                        Полиция бросается за ними в погоню, а герои меняются ролями. «Заложник» становится нянькой
+                        «похитителя» и «отцом» его немой дочери. Трогательная история о неожиданной дружбе и
+                        взаимопомощи</p>
+                    <a href="https://www.youtube.com/@kinosovkusom" target="_blank"class="btn btn-primary">{{link}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
